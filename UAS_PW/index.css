@@ -1,0 +1,158 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1b1b1b;
+    color: #c6d4df;
+}
+
+/* Header styles */
+header {
+    background-color: #171a21;
+    color: #c6d4df;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styles */
+.logo a {
+    text-decoration: none;
+    color: #c6d4df;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Navbar styles */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #c6d4df;
+    font-size: 26px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #66c0f4;
+}
+
+/* User styles */
+.user a {
+    text-decoration: none;
+    color: #c6d4df;
+    font-size: 26px;
+    transition: color 0.3s;
+}
+
+.user a:hover {
+    color: #66c0f4;
+}
+
+/* Main content styles */
+main {
+    margin-top: 75px;
+}
+
+.hero {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 68px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 28px;
+    margin-top: 80px;
+}
+
+.games {
+    padding: 40px 20px;
+}
+
+.games h2 {
+    font-size: 62px;
+    margin-bottom: 80%;
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.game-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.game-item {
+    background-color: #2a475e;
+    padding: 10px;
+    border-radius: 8px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #c6d4df;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.game-item:hover {
+    transform: translateY(-5px);
+}
+
+.game-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.game-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.game-item p {
+    font-size: 16px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #171a21;
+    color: #c6d4df;
+    padding: 35px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+
+} 
+
+
